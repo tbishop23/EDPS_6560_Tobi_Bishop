@@ -12,21 +12,115 @@
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
 		/>
+        <!-- W3 -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Roboto&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Kristi&display=swap" rel="stylesheet"> 
+
+		<!-- Main Stylesheet -->
+        <!--This isn't connecting to my file for some reason-->
+		<link rel="stylesheet" href="css/style.css" />
+        
+		<style>
+            h1,h2,h3,h4,h5,h6,a {font-family: "Oswald"}
+            body {font-family: "Open Sans"}
+        </style>
+        <body class="w3-light-blue"></body>
+      
+        <!--Trying background color
+        <style>
+            body {
+                background-image: url("img/background-3.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: cadetblue
+            }
+            </style>
+        -->
+        
 		<title>Tobi Bishop</title>
 	</head>
 
 	<body>
-		<!-- Tobi Bishop ePortfolio - 
-
-        -->
-		<div id="sec_lan">
-			<h1><strong>Tobi Bishop</strong></h1>
-			<h2>Instructional Designer | Content Refiner</h2>
-			<h4>Information overload? Need to refine and redesign? Looking for focus and advancement?</h4>
+		
+    <!--Navigation bar - I borrowed this from the w3 website, but the icons didn't come across correctly onto my site-->
+        <div class="w3-bar w3-black w3-hide-small">
+        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+        </div>
+        
+    <!--Hero Image ?-->
+        <div class="hero-image">
+            <div class="hero-text">
+                <a href="#default" class="logo">Tobi Bishop</a>
+                <a href="#index">Home</a>
+                <a href="#mystory">My Story</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        
+    <!--Attempt to build a header -->   
+    	<div id="sec_head" class="container-fluid" style="height: 25vh;">
+          <div class="row justify-content-start align-items-end" style="height: 25vh;">
+            <div class="col">
+                <h1><strong>Tobi Bishop</strong></h1></div>
+            <div class="col-2">
+                <a href="#index" h6>Home</a></div>
+            <div class="col-2">
+                <a href="#mystory" h6>About Me</a></div>
+            <div class="col-2">
+                <a href="#portfolio" h6>Portfolio</a></div>
+            <div class="col-2">
+                <a href="#contact" h6>Contact</a></div>
+            <div class="w-100"></div>
+            <div class="col" class="align-items-start align-self-start">
+                <h6>Instructional Designer | Content Refiner</h6></div>
+              <!--How do I make this line justify to the top of the column? I thought the align-self-start would do that.-->
+            <div class="col"></div>
+            </div></div>
+                            
+        <div id="sec_body" class="container-fluid">
+            <div class="row justify-content-center align-items-center" style="height: 75vh;">
+            <div class="col-4">
+                <img src="img/headshot.jpg"  class="img-thumbnail" alt="Tobi Bishop headshot"></div>
+            <div class="col-8">
+                <div class="col align-self-start">
+                    Information overload?</div>
+                <div class="col align-self-center">
+                    Need to refine and redesign?</div>
+                <div class="col align-self-end">
+                    Looking for focus and advancement?</div>
+            </div>
+            </div>
+        </div>
+    </body>
+  
+        <!--Old code...saving just in case
+            <div class="row justify-content-center align-items-end" style="height: 70vh;">
+                <div class="col-6">
+                    <h6>Master student at the University of Utah</h6>
+                    <h6>Small business owner</h6>
+                    <h6>Mother of six</h6>
+                </div>
+                <div class="col-4">
+                    
+                </div>
+            </div>
 		</div><br>
         
-        <!-- Start Navigation -->
+        
 		<nav id="sec_nav">
             <h2>Take a look at...</h2>
 			<ul>
@@ -36,11 +130,11 @@
 				<li><a href="contact.html" target="_blank" class="btn btn-info" href="contact.html" role="button" target="_blank">Contact Info</a></li>
 			</ul>
 		</nav>
-        <!-- End Navigation -->
+        
 	    <br>
         <br>
 		<div id="sec_work">
-			<!-- Start My Work -->
+			
 			<h1>My Work</h1>
               <small><a href="#sec_lan">Back to Top</a></small>
 			<h4>Habit Finder(TM) Asessment Training</h4>
@@ -54,10 +148,10 @@
 				Current Project: Learning module to present College of Education librarian Donna Ziegenfuss's "5 Strategies for Graduate Research."
 			</p>
 		</div>
-		<!-- End My Work Section -->
+		
         <br><br>
         <div id="sec_skills">
-			<!-- Start My Skills Section -->
+			
 			<h1>My Skills</h1>
               <small><a href="#sec_lan">Back to Top</a></small>
 			<p>
@@ -66,22 +160,26 @@
 				cillum dolore eu fugiat nulla pariatur.
 			</p>
 		</div>
-        <!-- End My Skills Section -->
+        
         <br><br>
         <div id="sec_story">
-			<!-- Start The Backstory Section -->
+			
 			<h1>The Backstory</h1>
               <small><a href="#sec_lan">Back to Top</a></small><br>
 			<img src=http://placekitten.com/200/300 alt="Tobi Bishop headshot" height="300" width="auto" />
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				
+                Photo by Lisa Fotios from Pexels
+                
+                Photo by Louis from Pexels
+
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur.
 			</p>
 		</div>
-        <!-- End Backstory Section -->
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -97,5 +195,5 @@
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 			crossorigin="anonymous"
 		></script>
-	</body>
+        -->
 </html>

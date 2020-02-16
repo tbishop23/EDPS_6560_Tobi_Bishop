@@ -1,0 +1,32 @@
+/* CSS Reference from W3School: https://www.w3schools.com/cssref/ */
+
+/* Example Variables */
+:root {
+	/* Fonts */
+	--main-font-primary: "Kristi", cursive;
+	--main-font-secondary: "Montserrat", sans-serif;
+	--main-font-tertiary: "Comfortaa", cursive;
+	/* Colors */
+	--main-color-gray: #485359;
+	--main-color-white: #e9f0f2;
+	--main-color-black: #0d0d0d;
+	--main-color-light: #5ef2ad;
+	--main-color-dark: #45735d;
+	--main-color-light2: #f38888;
+	--main-color-dark2: #d27575;
+	--main-color-light3: #a0d3f2;
+	--main-color-dark3: #769bb3;
+    
+    body, html {
+        height: 100%
+    }
+    
+    .hero-image {
+        background-image: url(black-and-pink-header.jpg)
+        height: 25%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        position: relative
+    }
+    
