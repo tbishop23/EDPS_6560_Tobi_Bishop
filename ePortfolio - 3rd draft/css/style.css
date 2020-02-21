@@ -1,0 +1,110 @@
+/* CSS Reference from W3School: https://www.w3schools.com/cssref/ */
+
+/* Example Variables */
+:root {
+	/* Fonts */
+	--main-font-primary: "Kristi", cursive;
+	--main-font-secondary: "Montserrat", sans-serif;
+	--main-font-tertiary: "Comfortaa", cursive;
+	/* Colors */
+	--main-color-burgandy: #8C4256;
+    --main-color-darkpink: #D95F8C;
+    --main-color-pink: #F2A7C3;
+    --main-color-salmon: #F0A4A1;
+    --main-color-black: #1C2625;
+    --main-color-gray: #32403E; 
+}
+
+body,
+html {
+	height: 100%;
+    background-color: var(--main-color-gray);
+}
+
+
+.hero-image {
+	background-image: url(hero-image.jpg);
+	height: 40%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 10px;
+    padding-top: 45px;
+    }
+
+h6{
+    margin: 15px;
+    padding-bottom: 20px;
+    color: floralwhite;
+}
+
+#hire_me {
+    background-color: var(--main-color-salmon);
+    border-color: var(--main-color-salmon);
+}
+
+#nav_bar {
+    background-color: var(--main-color-gray);
+    color: var(--main-color-salmon);
+}
+
+h4, 
+h2 {
+    color: floralwhite;
+}
+
+#purpose {
+    margin: 40px;
+    text-align: center;
+    color: floralwhite;
+    font-size: 1.5em;    
+}
+
+#chevron {
+    color: var(--main-color-salmon);
+    
+}
+
+
+#sec_body,
+#port_body {
+    margin-left: 0px;
+    text-align: center;
+}
+
+#body_left {
+    background-color: var(--main-color-gray);
+    padding: 20px;
+    color: var(--main-color-burgandy);
+}
+
+#ques_sidebar {
+    background-color: var(--main-color-burgandy);
+    color: floralwhite;
+    padding: 10px;
+    margin: 0px;
+}
+
+#click_here {
+    color: floralwhite;
+}
+#social_media {
+    background-color: var(--main-color-gray);
+    color: black;
+    padding: 15px;
+}
+
+#skills {
+    color: floralwhite;
+    font-size: 1em
+}
+
+#about_me {
+    color: floralwhite;
+    font-size: 1rem;
+}
