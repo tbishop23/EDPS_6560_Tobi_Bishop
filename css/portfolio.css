@@ -70,45 +70,32 @@ h2 {
     
 }
 
-
-#sec_body {
+#port_body {
     margin-left: 0px;
     text-align: center;
     padding-top: 20px;
 }
 
-#ques_sidebar {
-    background-color: var(--main-color-burgandy);
-    color: floralwhite;
-    padding: 10px;
-    margin: 0px;
-}
-
-#click_here {
-    color: floralwhite;
-}
-#social_media {
+#body_one {
     background-color: var(--main-color-gray);
-    color: black;
-    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center
 }
 
-#skills {
-    color: floralwhite;
-    font-size: 1em;
+#body_two {
+    background-color: var(--main-color-gray);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center
 }
 
-#about_me {
-    color: floralwhite;
-    font-size: 1rem;
-}
-
-#cards {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.card-title {
-    color: var(--main-color-salmon
-    );
+#body_three {
+    round-color: var(--main-color-gray);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center
 }

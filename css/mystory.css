@@ -1,0 +1,125 @@
+/* CSS Reference from W3School: https://www.w3schools.com/cssref/ */
+
+/* Example Variables */
+:root {
+	/* Fonts */
+	--main-font-primary: "Kristi", cursive;
+	--main-font-secondary: "Montserrat", sans-serif;
+	--main-font-tertiary: "Comfortaa", cursive;
+	/* Colors */
+	--main-color-burgandy: #8C4256;
+    --main-color-darkpink: #D95F8C;
+    --main-color-pink: #F2A7C3;
+    --main-color-salmon: #F0A4A1;
+    --main-color-black: #1C2625;
+    --main-color-gray: #32403E; 
+}
+
+body,
+html {
+	height: 100%;
+    background-color: white;
+}
+
+
+h1 {
+    font-size: 4em;
+    margin: 10px;
+    padding-top: 45px;
+    }
+
+h6{
+    margin: 15px;
+    padding-bottom: 20px;
+    color: floralwhite;
+}
+
+#nav_bar {
+    background-color: var(--main-color-gray);
+    color: white;
+}
+
+#header_logo {
+   
+}
+
+h4, 
+h2 {
+    color: black;
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.8em;
+}
+#chevron {
+    color: var(--main-color-salmon);
+    font-size: 4em
+}
+
+/* CSS Grid Area */
+.about_me_grid {
+    display: flex;
+    align-self: center;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 25% 73%;
+	grid-template-rows: 47% 45% 8%;
+    grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4";
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
+    background-color: white;
+    padding: 20px;
+    justify-content: center
+}
+
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    text-align: center;
+}
+
+
+#bio_title {
+    text-align: center;
+    padding-top: 70px;
+}
+
+#bio {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#bishop_woodcraft {
+    color: var(--main-color-salmon);
+}
