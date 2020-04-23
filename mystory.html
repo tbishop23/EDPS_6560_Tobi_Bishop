@@ -27,7 +27,7 @@
 
 		<!-- Main Stylesheet -->
 		<!--This isn't connecting to my file for some reason-->
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/mystory.css" />
 
 		<style>
 			h1,
@@ -51,42 +51,71 @@
 
 	<body>
 		
-        <!--Hero Image ?-->
-		<div class="hero-image">
-			<div class="hero-text" style="color: floralwhite">
-                <div class="row justify-content-center align-items-center" height="50vh;">
-                    <h1>TOBI BISHOP</h1></div>
-                 <div class="row justify-content-center align-items-center">
-                    <h6>Instructional Designer | Content Refiner</h6></div>
-                <div class="row justify-content-around">
-				        <a id="hire_me" class="btn btn-info" href="#contact">Hire Me</a>
-				        </div>
-            </div>
-            
-		  </div>
-
-		
-		<div id="nav_bar" class="container-fluid" style="height: 7vh;">
-			<div class="row justify-content-around align-items-end" style="height: 5vh;">
-				<div>
-					<a href="#index" h4>Home</a>
-				</div>
-				<div>
-					<a href="#skills" h4>Skills</a>
-				</div>
-				<div>
-					<a href="#portfolio" h4>Portfolio</a>
-				</div>
-                <div>
-					<a href="#mystory" h4>About Me</a>
-				</div>
-				<div>
-					<a href="#contact" h4>Contact</a>
-				</div>
+        <!--Header-->
+		<div id="header_logo">
+			<div class="row justify-content-left align-items-start">
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <img src="img/logo%20left%202.svg" style="height: 7vh;"></div>   
+                <div class="col-12 col-sm-8 col-lg-9" "container" id="nav_bar"  style="height: 7vh;" >
+			         <div class="row justify-content-around align-items-end" style="height: 5vh;">
+				    <div>
+					<a href="index.html" h4>Home</a>
+				    </div>
+				    <div>
+					<a href="skills.html" h4>Skills</a>
+				    </div>
+				    <div>
+					<a href="portfolio.html" h4>Portfolio</a>
+				    </div>
+                    <div>
+					<a href="mystory.html" h4>About Me</a>
+				    </div>
+				    <div>
+					<a href="contact.html" h4>Contact</a>
+				    </div>
 				
-			</div>
-		</div>
-       
+			         </div>
+                
+                </div>
+            
+            </div>
+        </div>
+        
+        <!--CSS Grid-->
+            <div id="about_me_grid">
+                <div class="row justify-content-center align-items-center">
+                <div class="grid-container" style="height: 86vh;">
+                    <div class="item1">
+                        <img src="img/headshot.jpg" style="width: 100%"></div>
+                    <div class="item2">
+                        <img src="img/running.jpg" style="width: 100%"></div>
+                    <div class="item3">
+                        <img src="img/family%202020.jpg" style="width: 100%"></div>
+                    <div class="item4">
+                        <a href="#bio">
+                            <i id="chevron" class="fas fa-chevron-circle-down align-items-center"></i>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>    
+        
+        <!--Bio Text-->        
+            <div id="bio">
+                <div class="row">
+                    <div id="bio_title" class="col">
+                        <h4>Mother | Small Business Owner | Triathlete</h4></div>
+                </div>
+                <div class="row">
+                    <div id="bio" class="col">
+                    <p>I married my sweetheart, Shem, in December of 2000 the day after I took my last finals for my <strong>Bachelors Degree in Psychology</strong>. Since that day we have welcomed <strong>six children</strong> into our family.</p>
+                    <p>Just over a year before our first child was born we started a business together, <a href="https://bishopwoodcraft.com/" target="_blank" id="bishop_woodcraft">Bishop Woodcraft</a>, a custom staircase construction company. Our company brings in over a <strong>$1,000,000 in sales</strong> each year and caters toward high-end home builders and home owners. Shem manages the day-to-day operations, design, and sales. I manage the accounting and HR. I also provide the accounting and HR services for the Og Mandino Group.</p>
+                    <p>In between full time child rearing and part time work I took up the hobby of competing in <strong>triathlons</strong>. After my first swim-bike-run race in 2008 I was hooked. I have since completed several sprit and olympic distance triathlons and in the fall of 2019 I completed my first half ironman distance race completing 70.3 miles in just under 8 hours. I have also completed numerous half marathons and three full marathons.</p>
+                    <p>In August of 2019 I began a 13 year dream of starting a <strong>Masters degree in Instructional Design and Educational Technology</strong> at the University of Utah. Returning to school has been an absolute pleasure and I'm already envisioning all the ways I will use my new and developing knowledge in my future career. </p>
+                    </div></div>
+            </div>
+        
+        <!--Bio info
         <div id="about_me">
             <div class="row justify-content-start">
                 <div class="col-4">
